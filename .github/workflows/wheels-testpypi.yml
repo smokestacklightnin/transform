@@ -20,7 +20,7 @@ jobs:
         python-version: '3.10'
 
     - name: Install python dependencies
-      run: pip install --upgrade build twine pkginfo
+      run: pip install build twine
 
     - name: Build sdist and wheel
       run: |
