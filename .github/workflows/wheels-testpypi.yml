@@ -1,4 +1,4 @@
-name: Build Wheels & Publish to PyPI
+name: Build Wheels & Publish to Test PyPI
 
 on:
   pull_request:
