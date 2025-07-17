@@ -64,3 +64,5 @@ jobs:
         with:
           packages_dir: wheels/
           repository-url: https://test.pypi.org/legacy/
+          # already checked, and the pkginfo/twine versions on this runner causes check to fail
+          verify-metadata: false
