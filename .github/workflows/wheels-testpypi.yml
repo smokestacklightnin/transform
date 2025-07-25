@@ -62,7 +62,7 @@ jobs:
       - name: Upload to PyPI
         uses: pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc
         with:
-          packages_dir: wheels/
+          packages-dir: wheels/
           repository-url: https://test.pypi.org/legacy/
           # already checked, and the pkginfo/twine versions on this runner causes check to fail
           verify-metadata: false
